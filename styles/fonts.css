@@ -1,0 +1,73 @@
+h1, .item_h3, .hrefEvent, .event_h3, .hrefAll, .news_h3, .footer_h3, #events_h2, #news_h2, .section_h2 {
+    font-family: 'Noto Sans Display', Verdana, sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 102.4px;
+}
+
+.hrefNav, #lang, #p_h1, #hrefTitle, .hrefSection, .event_p16, .news_p, .language, .hrefItem, .hrefSections, .event_p14, .hrefFooter, .pFooter {
+    font-family: 'Nunito', Verdana, sans-serif;
+    font-weight: 400;
+}
+
+
+.item_h3, .hrefEvent, .event_h3, .hrefAll, .news_h3, .footer_h3, #events_h2, #news_h2, .section_h2{
+    font-weight: 500;
+}
+
+.language, .hrefItem, .hrefSections, .event_p14, .hrefFooter, .pFooter{
+    font-size: 14px;
+    line-height: 18.9px;
+}
+
+.hrefNav, #lang, #hrefTitle, .hrefSection, .event_p16, .news_p {
+    font-size: 16px;
+    line-height: 21.6px;
+}
+
+.item_h3, .hrefEvent, .event_h3, .hrefAll, .news_h3, .footer_h3 {
+    font-size: 21px;
+    line-height: 27.3px;
+}
+
+#p_h1 {
+    font-size: 24px;
+    line-height: 33.6px;
+}
+
+#events_h2, #news_h2, .section_h2{
+    font-size: 30px;
+    line-height: 39px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 102.4px;
+}
+
+.news_h3, .events_h2, .event_h3, .hrefAll {
+    font-weight: bolder;
+    }
+
+select {
+    border: none;
+    background-image: url('../assets/src/img/bgimg.svg');
+}
+
+
+
+.event_p16, .event_p14 {
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+

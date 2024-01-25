@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Позиционирование*/
+
+/*header*/
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.topLine {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.logo {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.search {
+    display: flex;
+    gap: 50px;
+}
+
+.lang {
+    display: flex;
+    gap: 5px;
+}
+
+.firstScreen {
+    display: flex;
+    justify-content: center;
+}
+
+.boxTitle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.boxItems {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.itemFirstRow, .itemSecondRow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0; 
+    justify-content: center;
+}
+
+/*main*/
+.sections {
+    display: flex;
+    justify-content: center;
+    gap: 115px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 15px;
+}
+
+.eventContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eventTitle {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex: 1 1 0;
+}
+
+.eventFirstRow, .eventSecondRow {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.newsTitle {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 0;
+}
+
+.newsFirstColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.newsSecondColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.newsPic {
+    display: flex;
+}
+
+/* footer */
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-content:space-around; 
+    justify-content: center;
+}
+
+.footerFirstRow, .footerSecondRow {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footerSection {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0; 
+    gap: 10px; 
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+
+/*Блочная модель*/
+
+/*header*/
+.headerContainer {
+    padding: 15px;
+}
+
+.topLine {
+    padding: 15px;
+}
+
+.logo {
+    margin-left: 150px
+}
+
+.firstScreen {
+    padding-top: 10px;
+}
+
+#p_h1 {
+    max-width: 400px;
+}
+
+.boxTitle {
+    padding-right: 100px;
+    padding-bottom: 300px;
+    margin-top: 100px;
+    max-width: 650px;
+    min-height: 150px;
+}
+
+.boxItems {
+    margin-bottom: -300px;
+}
+
+
+/*main*/
+.text{
+    display: inline-block;
+}
+
+.itemFirstRow, .itemSecondRow {
+    max-width: 450px;
+    padding: 15px;  
+}
+
+.item {
+    padding: 10px 15px;
+    min-width: 170px;
+}
+
+.hrefItem {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hrefAll {
+    padding-top: 10px;
+}
+
+.sections {
+    padding: 40px 30px 40px 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.eventContainer {
+    padding: 30px 40px 30px 40px;
+}
+
+.eventTitle {
+    min-width: 1200px;
+    max-width: 1200px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.card {
+    padding-left: 20px;
+}
+
+.hrefAll {
+    padding-top: 10px;
+}
+
+.event_p14, .event_h3, .event_p16 {
+    padding-left: 20px;
+}
+
+.newsContainer {
+    padding: 30px;
+}
+
+.newsTitle {
+    min-width: 500px;
+    max-width: 600px;
+}
+
+.hrefAll {
+    padding-top: 10px;
+}
+
+.newsFirstColumn {
+    padding: 30px; 
+    margin-top: 30px;
+    min-width: 580px;
+}
+
+
+.newsSecondColumn {
+    padding: 30px; 
+    min-width: 480px; 
+    max-width: 550px;
+}
+
+.eventSecondRow {
+    padding-bottom: 40px;
+}
+
+.pic {
+    padding: 20px;
+}
+
+.text{
+    padding: 15px;
+}
+
+
+/*footer*/
+.footerContainer {
+    padding: 30px 400px 30px 400px;
+}
+
+.footerFirstRow, .footerSecondRow {
+    padding: 20px;
+    min-width: 1200px;
+}
+
+.footerSection {
+    max-width: 250px;
+    margin-bottom: 24px;
+}
+
+
+#hrefID {
+    padding: 50px;
+}
+
+.button {
+    max-width: 160px;
+    max-height: 50px;
+}
+
+/*Оформление*/
+
+/*header*/
+
+.headerContainer {
+    background-image: url('../assets/src/img/bgimg.svg');
+    background-size: cover;
+}
+
+nav:hover a {
+    font-size: 120%;
+}
+
+.firstScreen {
+    color:white;
+}
+
+/*main*/
+.itemBlue  {
+    background-color: #2378FC;
+}
+
+.itemGreen, .footerContainer {
+    background-color: #30BCC9;
+}
+
+.itemYellow, .event-container {
+    background-color: #FFC41E;
+}
+
+.itemRed {
+    background-color: #F6404F;
+}
+
+.eventContainer {
+    background-color: #FFC41E;
+}
+
+.sections {
+    background-color: #2378FC;
+}
+
+.newsContainer {
+    background-color: #FAF3E3;
+}
+
+#hrefTitle, .hrefItem, .hrefNav, .hrefSection, .section_h2, .footer_h3, .footer_p  {
+    color: #FFFFFF
+}
+
+.hrefFooter, .pFooter {
+    color: #E0E0E0;
+}
+
+#hrefTitle, .hrefItem, .hrefFooter, .pFooter, .hrefSection {
+    text-decoration: none;
+}
+
+.hrefSection:hover, .hrefFooter:hover {
+    color: #FFC41E;
+}
+
+.hrefSection:focus, .hrefFooter:focus {
+    color: #000;
+}
+
+.event_h3, .news_p {
+    color:#F6404F;
+}
+
+.hrefAll {
+    color:#2E373B;
+}
+
+.hrefAll:hover {
+    color:#2E373B;
+}
+
+
+/*footer*/
+.footerContainer {
+    background-color: rgb(53, 180, 180);
+}
+
+.button {
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
