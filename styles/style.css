@@ -25,7 +25,13 @@
 .nav {
     display: flex;
     justify-content: space-around;
-    gap: 100px;
+    gap: 30px;
+}
+
+.nav {
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        display: flex;   
+    }
 }
 
 .search {
@@ -78,6 +84,11 @@
     justify-content: center;
     gap: 115px;
 }
+.sections {
+    @media (min-width:992px) and (max-width: 1100px) {
+      gap: 42px;  
+    }
+}
 
 .section {
     display: flex;
@@ -102,7 +113,13 @@
 .eventFirstRow, .eventSecondRow {
     display: flex;
     flex-wrap: wrap;
-    flex: 1 1 0;
+    /* flex: 1 1 0; */
+}
+
+.eventFirstRow, .eventSecondRow{
+    @media (min-width: 992px) and (max-width: 1340px) {
+        display: flex;   
+    }
 }
 
 .card {
@@ -117,6 +134,18 @@
     gap: 70px;
 }
 
+@media (min-width:1000px) and (max-width: 1200px) {
+    .newsContainer {
+        gap: 0px; 
+    }
+}
+
+@media (min-width: 850px) and (max-width: 991px) {
+    .newsContainer {
+        gap: 0px; 
+    }
+}
+
 .newsTitle {
     display: flex;
     justify-content: space-between;
@@ -129,6 +158,8 @@
     gap: 40px;
 }
 
+
+
 .newsSecondColumn {
     display: flex;
     flex-direction: column;
@@ -138,11 +169,16 @@
 .newsPic {
     display: flex;
 }
+@media (min-width: 900px) and (max-width: 1000px) {
+    .newsPic {
+        justify-content: flex-end;
+    }
+}
 
 /* footer */
 .footerContainer {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-content:space-around; 
     justify-content: center;
 }
@@ -178,9 +214,6 @@
     padding: 15px;
 }
 
-.logo {
-    margin-left: 150px
-}
 
 .firstScreen {
     padding-top: 10px;
@@ -240,10 +273,27 @@ h2 {
 }
 
 .eventTitle {
-    min-width: 1200px;
+    width: 100%;
     max-width: 1200px;
     padding-top: 40px;
     padding-left: 30px;
+}
+
+.eventBox{
+    display: flex;
+    flex-direction: column;
+  }
+
+@media (min-width: 992px) and (max-width: 1340px) {
+    .eventBox {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 991px) {
+    .eventBox {
+        flex-direction: row;
+    }
 }
 
 .card {
@@ -263,7 +313,7 @@ h2 {
 }
 
 .newsTitle {
-    min-width: 500px;
+    width: 100%;
     max-width: 600px;
 }
 
@@ -277,6 +327,20 @@ h2 {
     min-width: 580px;
 }
 
+
+@media (min-width:1000px) and (max-width: 1200px) {
+    .newsFirstColumn {
+        min-width:unset;
+        margin-top: 97px;  
+    }
+}
+
+@media (min-width:900px) and (max-width: 999px) {
+    .newsFirstColumn {
+        min-width:unset;
+        margin-top: 97px;  
+    }
+}
 
 .newsSecondColumn {
     padding: 30px; 
@@ -299,12 +363,12 @@ h2 {
 
 /*footer*/
 .footerContainer {
-    padding: 30px 400px 30px 400px;
+    padding: 30px 0px;
 }
 
 .footerFirstRow, .footerSecondRow {
     padding: 20px;
-    min-width: 1200px;
+    /* min-width: 1200px; */
 }
 
 .footerSection {
@@ -359,6 +423,10 @@ nav:hover a {
 .eventContainer {
     background-color: #FFC41E;
 }
+
+/* .sectionBox{
+    background-color: #2378FC;
+} */
 
 .sections {
     background-color: #2378FC;
